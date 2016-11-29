@@ -36,7 +36,7 @@ Una vez está creado el repositorio hay que configurarlo para que se enlace con 
 
 >And, **VERY IMPORTANT**, since you are installing your jenkins server in your localhost, please be aware that you **shouldn't** fill in above Jenkins hook url like *http://localhost:8080/github-webhook* because Github is not able to recognize *localhost* or *127.0.0.1* or *192.168.~.~.*
 
-Para conseguir que cada vez que se realice un push se compile la aplicación en Jenkins: dentro del proyecto Configure-> Build Triggers, seleccionamos Poll SCM y en el cuadro de texto incluimos * * * * *.
+>Para conseguir que cada vez que se realice un push se compile la aplicación en Jenkins: dentro del proyecto Configure-> Build Triggers, seleccionamos Poll SCM y en el cuadro de texto incluimos * * * * *.
 
 #Iteración 2:
 
